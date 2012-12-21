@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MTBindingSim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 30px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main message */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+
+      /* Supporting content */
+      .content {
+        margin: 60px 0;
+      }
+      .content p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="jumbotron">
+        <h1><img src="img/logo.png" width="500px" height="256px" /></h1>
+        <p class="lead">A program to plot binding curves under various conditions, particularly those encountered in microtubule binding or other polymer binding situations.</p>
+      </div>
+
+      <hr>
+
+      <div class="row-fluid content">
+        <div class="span6">
+          <h4>New: Journal Article</h4>
+          <p>An article discussing the basics of MTBindingSim is published in the journal <em>Bioinformatics.</em> <a href="download/Philip_et_al_MTBindingSim.pdf">Download a preprint</a> or <a href="http://bioinformatics.oxfordjournals.org/content/28/3/441">visit the journal's website!</a> You may cite MTBindingSim as: Philip, J.T., Pence, C.H. &amp; Goodson, H.V. 2012. "MTBindingSim: Simulate Protein Binding to Microtubules." <em>Bioinformatics</em> 28(3):441&ndash;443.</p>
+
+          <h4>Mailing List</h4>
+          <p>If you would like to keep track of new versions of MTBindingSim as they're released, we encourage you to sign up for our (low-volume) <a href="http://groups.google.com/group/mtbindingsim-announce">announcements mailing list.</a></p>
+        </div>
+
+        <div class="span6">
+          <h4>Current Release</h4>
+          <p>Our current release is version 0.13, a beta released on November 4, 2011. (A patch release for Windows only, 0.13.1, was released February 14, 2012.) To download and install MTBindingSim, see the downloads section below. You may also <a href="https://github.com/jtophilip/mtbindingsim/wiki">read the MTBindingSim user manual online.</a></p>
+          
+          <h4>Find a Bug?</h4>
+          <p>MTBindingSim is under active development.  If something doesn't work right for you, or you'd like to see a new feature, you're encouraged to <a href="https://github.com/jtophilip/mtbindingsim/wiki/FilingATicket">submit an issue.</a></p>
+        </div>
+      </div>
+
+      <hr>
+      
+      <h3>Download MTBindingSim</h3>
+      
+      <div class="tabbable">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab1" data-toggle="tab">Windows</a></li>
+          <li><a href="#tab2" data-toggle="tab">Mac</a></li>
+          <li><a href="#tab3" data-toggle="tab">Other / MATLAB</a></li>
+        </ul>
+        
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab1">
+            <p>If you do not already have it installed, the Windows installer will automatically download and run the MATLAB Compiler Runtime installer.  Note that this is a large download, and an internet connection is required during MTBindingSim installation.</p>
+            
+            <p style="text-align: center;"><a class="btn btn-primary" href="http://mtbindingsim.googlecode.com/files/MTBindingSim-0.13.1.exe">Download MTBindingSim</a>&nbsp;&nbsp;&nbsp;
+            <a class="btn btn-info" href="http://mtbindingsim.googlecode.com/files/mtbindingsim-0.13.pdf">Download User Manual</a></p>
+            
+            <h5>Manual MCR Download</h5>
+            
+            <p>If you need to download the MCR manually (e.g., for troubleshooting purposes), our version of the MCR can be <a href="http://www.nd.edu/~goodlab/MCRInstaller-7.16-Win.exe">found here.</a></p>
+            
+            <p style="font-size:80%">Problems extracting one of our .ZIP files on Windows?  Try using a different .ZIP file extractor, like the free and open-source <a href="http://www.7-zip.org/" target="_top">7-Zip!</a></p>
+          </div>
+          <div class="tab-pane" id="tab2">
+            <h4>Prerequisites</h4>
+            
+            <p>The MATLAB Compiler Runtime must be installed on your computer in order to run MTBindingSim.  You only need to install it once.  Download the appropriate file, and double-click it to extract.  Then, double-click the InstallForMacOSX application found in the newly created folder.  Follow the instructions to install the MCR.</p>
+            <p><strong>Note:</strong> We have recently upgraded our version of the MCR to work on Mac OS X Lion.  You may need to reinstall the MCR, even if you have run MTBindingSim before.</p>
+          
+            <p style="text-align: center;"><a class="btn" href="http://www.nd.edu/~goodlab/MCRInstaller-7.16-Mac.zip">Download MATLAB Compiler Runtime</a></p>
+          
+            <h4>Get MTBindingSim</h4>
+            <p>Then, download MTBindingSim.  Double-click to open the disk image and drag the MTBindingSim icon to your Applications folder.</p>
+          
+            <p style="text-align: center;"><a class="btn btn-primary" href="http://mtbindingsim.googlecode.com/files/mtbindingsim-0.13.dmg">Download MTBindingSim</a>&nbsp;&nbsp;&nbsp;
+            <a class="btn btn-info" href="http://mtbindingsim.googlecode.com/files/mtbindingsim-0.13.pdf">Download User Manual</a></p>
+          </div>
+          <div class="tab-pane" id="tab3">
+            <p>If you wish to run MTBindingSim either on another platform, or within MATLAB itself, you need only to download one file, the MTBindingSim source package.  After extracting it, open the "MTBindingSim.m" file in MATLAB and execute it to run MTBindingSim.</p>
+            
+            <p style="text-align: center;"><a class="btn btn-primary" href="http://mtbindingsim.googlecode.com/files/mtbindingsim-0.13.zip">Download MATLAB Source</a>&nbsp;&nbsp;&nbsp;
+            <a class="btn btn-info" href="http://mtbindingsim.googlecode.com/files/mtbindingsim-0.13.pdf">Download User Manual</a></p>
+          </div>
+        </div>
+      </div>
+            
+      <hr>
+
+      <div class="footer">
+        <p>&copy; University of Notre Dame 2010&ndash;2012<br />
+          Support provided by the <a href="http://www.nsf.gov">National Science Foundation</a></p>
+      </div>
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
