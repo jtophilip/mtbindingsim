@@ -18,9 +18,8 @@ A few things need to be checked before we release a new version of MTBindingSim.
   1. Produce updated source-code package (including `make distcheck`) and upload.
   2. Produce updated binaries and upload.  This includes `make dmg` on Mac, and creation of the two NSIS installers on Windows.
   3. Upload an updated documentation PDF.
-  4. Switch over links on the download widget.
-  5. Edit front page.
-  6. Send a message to the -announce mailing list:
+  4. Edit the gh-pages website.
+  5. Send a message to the -announce mailing list:
      
          Subject: MTBindingSim X.Y released
          
