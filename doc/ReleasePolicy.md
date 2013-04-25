@@ -37,7 +37,7 @@ A few things need to be checked before we release a new version of MTBindingSim.
          
          To download this release, please visit our website at:
          
-          <http://mtbindingsim.googlecode.com>
+          <http://bindingtutor.org/mtbindingsim>
          
          New downloads are immediately available for Windows and Mac 
          systems, as well as source code and documentation.
