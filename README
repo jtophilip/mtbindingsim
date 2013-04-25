@@ -37,9 +37,7 @@ Installation
  - Windows installer:
 
    Run the included Windows installer, which will install
-   MTBindingSim and its dependencies.  If you have trouble
-   getting MTBindingSim to run, make sure you are using
-   the "full installer," not the "update installer."
+   MTBindingSim and its dependencies.
 
  - Mac installer:
 
