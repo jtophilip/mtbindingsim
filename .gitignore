@@ -12,7 +12,6 @@ Makefile.in
 *.aux
 *.log
 *.out
-*.pdf
 *.toc
 *.pyc
 *~
@@ -20,6 +19,7 @@ Makefile.in
 build/Common.nsh
 
 *.tex
+doc/mtbindingsim.pdf
 !doc/Introduction.tex
 
 src/MTBindingSim
